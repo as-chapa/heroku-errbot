@@ -1,5 +1,5 @@
 from errbot import BotPlugin, botcmd
-
+from time import sleep
 
 class Example(BotPlugin):
     """
