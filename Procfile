@@ -1,1 +1,1 @@
-web: errbot --daemon
+web: errbot
