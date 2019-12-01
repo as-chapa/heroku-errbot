@@ -19,6 +19,8 @@ class Example(BotPlugin):
     @botcmd
     def hello_card(self, msg, args):
         """Say a card in the chatroom."""
+        yield "Now, Deploying"
+        sleep(3)
         self.send_card(title='Title + Body',
                        body='text body to put in the card',
                        thumbnail='https://raw.githubusercontent.com/errbotio/errbot/master/docs/_static/errbot.png',
