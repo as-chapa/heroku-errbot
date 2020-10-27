@@ -8,7 +8,7 @@ cffi==1.13.2
 chardet==3.0.4
 Click==7.0
 colorlog==4.0.2
-cryptography==2.8
+cryptography==3.2
 daemonize==2.5.0
 dulwich==0.19.13
 errbot==6.1.1
